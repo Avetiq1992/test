@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signUp.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="header">
+            <h2>Registration</h2>
+        </div>
+        <form action="" class="form">
+            <div class="form-group">
+                <input id="email" type="text" placeholder="Username" autocomplete="off">
+                <i class="ion-ios-checkmark"></i>
+                <i class="ion-android-alert"></i>
+                <span></span>
+            </div>
+            <div class="form-group">
+                <input id="password" type="password" placeholder="Password" autocomplete="off">
+                <i class="ion-ios-checkmark"></i>
+                <i class="ion-android-alert"></i>
+                <span></span>
+            </div>
+
+            <div class="nameIn">
+                <input id="name" type="text" placeholder="Name">
+                <input id="lastName" type="text" placeholder="Lastname">
+            </div>
+            <div id="inputLab">
+                <label for="femele">Femele<input type="radio" id="femele" name="os" value="femele"></label>
+                <label for="male">Male<input type="radio" id="male" name="os" value="male"></label>
+                <label for="other">Other<input type="radio" id="other" name="os" value="other"></label>
+            </div>
+            <div id="birtday">
+                <label for="bd">Date of Birth</label>
+                <input id="bd" type="date" name="bd">
+            </div>
+            <button onclick="signup()" id="submit">Registration</button>
+            <div id="regForLog">
+                <a href="https://www.facebook.com/"> <img src="./face.png" alt=""></a>
+                <a href="https://accounts.google.com/"> <img src="./goog.png" alt=""></a>
+            </div>
+        </form>
+    </div>
+    <script src="./signUp.js"></script>
+</body>
+
+</html>

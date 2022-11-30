@@ -1,0 +1,35 @@
+body {
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: rgb(79, 9, 243);
+}
+#inform{
+    width: 45vw;
+    height: 50vw;
+    margin-top: 80px;
+    background-color:#e8e5e5;
+    border: solid 3px black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ label{
+    margin: 5px;
+    width: 100px;
+    height: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+p{
+    margin: 5px;
+}

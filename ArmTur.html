@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ArmTur.css">
+    <title>ArmTour</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="./ArmTur.html">
+            <img src="./image/logo.png">
+        </a>
+        <select class="language">
+            <option id="arm">ARM </option>
+            <option value="/en/">EN</option>
+            <option value="/ru/">RU</option>
+            <option value="/fr /">FR</option>
+        </select>
+        <select id="menu">
+            <option>MENU</option>
+            <option>Why Armenia</option>
+            <option>History of Armenia</option>
+            <option>Armenian Culture</option>
+            <option>Places of Interest</option>
+            <option>Hotels and Restaurant</option>
+            <option>Tour Agency</option>
+        </select>
+        <form class="Serch">
+
+            <input type="text" id="search">
+
+            <div class="card">
+                <ul class="search">
+                    <a href="./sign in/sign.html">
+                        <li>sign in</li>
+                    </a>
+                    <a href="./menu/histori.html">
+                        <li>history of Armenia</li>
+                    </a>
+                    <li>youtube</li>
+
+                </ul>
+            </div>
+
+        </form>
+        <button id="acaunt"> <a href="./acauntPage/acaunt.html">
+                <img src="./image/acaunt.png">
+        </button>
+        </a>
+        <button id="Sign"><a href="./sign in/sign.html">SIGN IN</a></button>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slider-item">
+                <img src="./image/slide/1.jpg" alt="">
+            </div>
+            <div class="slider-item">
+                <img src="./image/slide/2.jpg" alt="">
+            </div>
+            <div class="slider-item">
+                <img src="./image/slide/3.jpeg" alt="">
+            </div>
+            <div class="slider-item">
+                <img src="./image/slide/4.jpg" alt="">
+            </div>
+            <div class="slider-item">
+                <img src="./image/slide/5.jpg" alt="">
+            </div>
+            <div class="slider-item">
+                <img src="./image/slide/6.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="Division">
+            <div class="abaut">
+                <img src="./image/historimain.webp" alt="">
+                <button><a href="./menu/histori.html">History of Armenia</a></button>
+                <button><a href="">Armenian Culture</a></button>
+                <button><a href="">Places of Interest</a></button>
+                <h2>Histori of Armenia</h2>
+            </div>
+            <div class="abaut">
+                <img src="./image/hotel.png" alt="">
+                <button><a href="">Hotels</a></button>
+                <button><a href="">Restaurant</a></button>
+                <button><a href="">Houses</a></button>
+                <h2>Place to Live</h2>
+            </div>
+            <div id="tur" class="abaut">
+                <img src="./image/armmm.jpg" alt="">
+                <button><a href="">Historicol</a></button>
+                <button><a href="">Wine and Cuisine</a></button>
+                <button><a href="">Archeological</a></button>
+                <button><a href="">Jeep</a></button>
+                <button><a href="">Educational</a></button>
+                <button><a href="">Trekking</a></button>
+                <h2>Tipe of Tour</h2>
+            </div>
+            <div class="abaut">
+                <img src="./image/location.png" alt="">
+                <button><a href="">Your Route</a></button>
+                <button><a href="">Your Location</a></button>
+                <button><a href="">Help</a></button>
+                <h2>You</h2>
+            </div>
+            <div class="abaut">
+                <img src="./image/travel in armenia.png" alt="">
+                <button><a href="">Travel by Myself</a></button>
+                <button><a href="">Tour Agencies</a></button>
+                <button><a href="">Guide</a></button>
+                <h2>Tour</h2>
+            </div>
+            <div class="abaut">
+
+            </div>
+
+        </div>
+
+
+        <div id="in">
+            <img src="./image/armmap.png" alt="">
+            <div id="pin"></div>
+            <div id="pulse"></div>
+            <div class="bttt">
+                <button onclick="addCell(1)">Aragatsotn</button>
+                <button onclick="addCell(2)">Ararat</button>
+                <button onclick="addCell(3)">Armavir</button>
+                <button onclick="addCell(4)">Gegharkunik</button>
+                <button onclick="addCell(5)">Kotayk</button>
+                <button onclick="addCell(6)">Lori</button>
+                <button onclick="addCell(7)">Shirak</button>
+                <button onclick="addCell(8)">Syunik</button>
+                <button onclick="addCell(9)">Tavush</button>
+                <button onclick="addCell(10)">Vayots Dzor</button>
+                <button onclick="addCell(11)">Yerevan</button>
+            </div>
+
+        </div>
+    </main>
+    <div class="line"></div>
+    <nav>
+        <div id="hid">
+            <h5 class="h5_plase">Plase in Armenia</h5>
+            <button id="kclic" onclick="meny()"> <img id="tur-img" src="./image/turist_img.png" alt=""></button>
+            <div id="optim">
+                <button class="closeBtn">
+                    <img src="./image/close.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="platform">
+            <div class="plase" data-id="part_1">
+
+                <img class="images" src="./image/platform/kaskad_img.jpg" alt="">
+                <div class="part">
+                    <h5 class="name_t">Kaskad</h5>
+                    <p class="text">
+                        The Cascade, located behind the Opera and Ballet Theatre, between Mesrop Mashtots
+                        Avenue and
+                        Baghramyan and Moskovyan streets, originates in a small square where a monument to the architect
+                        Tamanyan was erected, thinking about the main plan in his life. The purpose of building a
+                        pompous staircase made of milky tuff was to connect the lower and upper cities, located high in
+                        the mountains.</p>
+                    <a class="location"
+                        href="https://www.google.com/maps/place/Cascade+Complex/@40.1909754,44.5161155,15z/data=!4m5!3m4!1s0x0:0x54165e8b3d0b54c3!8m2!3d40.1909754!4d44.5161155">
+                        <img class="imag_loc" src="./image/platform/locat_kaskad.png" alt=""></a>
+                </div>
+                <button data-kart class="Btn_Part">Add</button>
+            </div>
+            <div class="plase" data-id="part_2">
+                <img class="images" src="./image/platform/erebuni_img.jpg" alt="">
+                <div class="part">
+                    <h5 class="name_t">Erebuni fortress</h5>
+                    <p class="text">
+                        In 782 BC. e. Argishti I, the king of the Kingdom of Van, decided to create the Erebuni fortress
+                        on the Red Hill as a strategic object to secure the Urartians in the Ararat Valley, leaving the
+                        date of the founding of the city on a stone stele
+                    </p>
+                    <a class="location"
+                        href="https://www.google.com/maps/place/Erebuni+Fortress/@40.1406957,44.5380056,15z/data=!4m5!3m4!1s0x0:0xd51ef43b64a6d325!8m2!3d40.1406957!4d44.5380056">
+                        <img class="imag_loc" src="./image/platform/locat_erebuni.png" alt="">
+                    </a>
+                </div>
+                <button data-kart class="Btn_Part">Add</button>
+            </div>
+            <div class="plase" data-id="part_3">
+                <img class="images" src="./image/platform/noravank_img.jpg" alt="">
+                <div class="part">
+                    <h5 class="name_t">Noravanq</h5>
+                    <p class="text">
+                        Noravank monastery complex is the pearl of Armenian religious architecture. Located 120 km from
+                        Yerevan, it attracts tourists with churches of the 13th century against the backdrop of
+                        unearthly landscapes - sheer red rocks of the Arpa River Gorge in the village of Jermuk.
+                    </p>
+                    <a class="location"
+                        href="https://www.google.com/maps/place/Noravank+Monastery/@39.6847695,45.2327242,15z/data=!4m2!3m1!1s0x0:0xf7c6b1aa6b7f32bb?sa=X&ved=2ahUKEwiQ7viI2q_7AhWQSvEDHT-qC-QQ_BJ6BAhcEAg">
+                        <img class="imag_loc" src="./image/platform/locat_noravanq.png" alt="">
+                    </a>
+                </div>
+                <button data-kart class="Btn_Part">Add</button>
+            </div>
+            <div class="plase" data-id="part_4">
+                <img class="images" src="./image/platform/zvartnoc_img.jpg" alt="">
+                <div class="part">
+                    <h5 class="name_t">Zvartnoc</h5>
+                    <p class="text">
+                        At the beginning of the 20th century, 10 km from Yerevan, a group of researchers discovered the
+                        ruins of an ancient temple, buried up to the very roof under a layer of earth and sand. After
+                        excavating the building and reconstructing its original appearance, scientists came to the
+                        conclusion that one of the most beautiful and large-scale religious buildings of early medieval
+                        Armenia, the Temple of Zvartnots, also known as the “Temple of Vigilant Angels”, was located on
+                        the site of the hill.
+                    </p>
+                    <a class="location"
+                        href="https://www.google.com/maps/place/Zvartnots+Cathedral/@40.1597517,44.3359004,15z/data=!4m5!3m4!1s0x0:0x6fe1a254daa404f2!8m2!3d40.1597517!4d44.3359004">
+                        <img class="imag_loc" src="./image/platform/locat_zvartnoc.png" alt="">
+                    </a>
+                </div>
+                <button data-kart class="Btn_Part">Add</button>
+            </div>
+            <div class="plase" data-id="part_5">
+                <img class="images" src="./image/platform/sanahin_img.jpg" alt="">
+                <div class="part">
+                    <h5 class="name_t">Sanahin</h5>
+                    <p class="text">
+                        The monastic complex of Sanahin, spread out in the delta of the river. Debed is considered one
+                        of the most inaccessible religious buildings on the territory of Armenia: it can only be reached
+                        on foot, having previously overcome many kilometers from Yerevan.
+                    </p>
+                    <a class="location"
+                        href="https://www.google.com/maps/place/Sanahin+Monastery+Complex/@41.0872827,44.6660897,15z/data=!4m5!3m4!1s0x0:0xf8d7a402d302d72d!8m2!3d41.0872827!4d44.6660897">
+                        <img class="imag_loc" src="./image/platform/locat_sanahin.png" alt="">
+                    </a>
+                </div>
+                <button data-kart class="Btn_Part">Add</button>
+            </div>
+            <div class="plase" data-id="part_6">
+                <img class="images" src="./image/platform/garni_img.jpg" alt="">
+                <div class="part">
+                    <h5 class="name_t">Garni</h5>
+                    <p class="text">
+                        The pagan temple in Garni is the most famous monument of the era of paganism and Hellenism. It
+                        was built in the Hellenic style in the 1st century by the Armenian king Trdat I and dedicated to
+                        the sun god Mithra. What does the inscription in Greek, found in the ruins of the temple,
+                        testify to
+                    </p>
+                    <a class="location"
+                        href="https://www.google.com/maps/place/Pagan+Temple+of+Garni/@40.112261,44.7303231,15z/data=!4m5!3m4!1s0x0:0x3326a533973fd65f!8m2!3d40.112261!4d44.7303231">
+                        <img class="imag_loc" src="./image/platform/locat_garni.png" alt="">
+                    </a>
+                </div>
+                <button data-kart class="Btn_Part">Add</button>
+            </div>
+        </div>
+    </nav>
+
+    <footer>
+        <div id="footstart">
+            <a href="#">......</a>
+        </div>
+        <div id="footmanu">
+            <div>
+                <h3>Histori of Armenia</h3>
+                <a href="">History of Armenia</a>
+                <a href="">Armenian Culture</a>
+                <a href="">Places of Interest</a>
+            </div>
+            <div>
+                <h3>Place to Live</h3>
+                <a href="">Hotels</a>
+                <a href="">Restaurant</a>
+                <a href="">Houses</a>
+            </div>
+            <div>
+                <h3>Tipe of Tour</h3>
+                <a href="">Historicol</a>
+                <a href="">Wine and Cuisine</a>
+                <a href="">Archeological</a>
+                <a href="">Jeep</a>
+                <a href="">Educational</a>
+                <a href="">Trekking</a>
+            </div>
+            <div>
+                <h3>You</h3>
+                <a href="">Your Route</a>
+                <a href="">Your Location</a>
+                <a href="">Help</a>
+            </div>
+            <div>
+                <h3>Tour</h3>
+                <a href="">Travel by Myself</a>
+                <a href="">Tour Agencies</a>
+                <a href="">Guide</a>
+            </div>
+            <div>
+                <h3>Armenian province</h3>
+                <a href="">Aragatsotn</a>
+                <a href="">Ararat</a>
+                <a href="">Armavir</a>
+                <a href="">Gegharkunik</a>
+                <a href="">Kotayk</a>
+                <a href="">Lori</a>
+                <a href="">Shirak</a>
+                <a href="">Syunik</a>
+                <a href="">Tavush</a>
+                <a href="">Vayots Dzor</a>
+                <a href="">Yerevan
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js "></script>
+    <script src="../Armenian Tur/sign up/signUp.js"></script>
+
+</body>
+
+</html>
