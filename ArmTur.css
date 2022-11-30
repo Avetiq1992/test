@@ -444,6 +444,9 @@ nav {
     border: none;
     background-color: #757575;
 }
+#hid h5{
+    margin-bottom: 20px;
+}
 
 #tur-img {
     width: 40px;
@@ -458,6 +461,13 @@ nav {
     border-radius: 10px;
     z-index: 5;
 }
+#tur-img {
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px orangered;
+}
+#tur-img:hover{
+    box-shadow: 0 0  5px orangered;
+}
 
 .closeBtn {
     position: relative;
@@ -466,6 +476,7 @@ nav {
     padding: 0;
     width: 25px;
     height: 25px;
+    
 }
 
 .closeBtn img {
